@@ -8,6 +8,9 @@ nav a{
     color: brown;
 }
 
+div p{
+    text-decoration:underline;
+}
 
 .practice{
     color: brown;
