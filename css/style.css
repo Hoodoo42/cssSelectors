@@ -83,7 +83,15 @@ img:hover{
     color: lightblue;
 }
 
-nav a:active{
+
+
+nav a:link{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+nav a:visited{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    color: black;
+    color: darkcyan;
 }
