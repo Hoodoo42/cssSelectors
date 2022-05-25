@@ -27,6 +27,7 @@ h3, h4, p{
 }
 
 .image{
+    filter: grayscale(1);
     height: 300px;
     width: auto;
     box-shadow: 15px 15px;
@@ -64,4 +65,25 @@ h1~p{
 
 .practice+img{
     color: aqua;
+}
+
+
+/*-----PSUEDO SELECTORS*/
+
+img:hover{
+    height: 400px;
+    width: auto;
+    filter: grayscale(0);
+}
+
+#jack:active{
+    color: red;
+}
+.practice:hover{
+    color: lightblue;
+}
+
+nav a:active{
+    font-size: 20px;
+    color: black;
 }
