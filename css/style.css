@@ -1,0 +1,23 @@
+header{
+    background-color: aquamarine;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: brown;
+}
+
+
+.practice{
+    color: brown;
+}
+
+h1,p{
+font-size: 24px;
+font-style: italic;
+}
+
+h3, h4, p{
+    color: blueviolet;
+}
